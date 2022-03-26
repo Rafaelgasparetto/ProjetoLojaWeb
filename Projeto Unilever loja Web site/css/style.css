@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: rgb(221, 221, 221);
+    
+}
+
+.header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: blue;
+box-shadow: 0 0 15px rgb(7, 7, 129);
+width: 100%;
+height: 80px;
+padding: 0 10px;
+}
+
+
+
+.logo span:first-child{
+    font-family: 'Grandstander', cursive;
+    letter-spacing: 3px;
+   
+}
+
+
+.logouni {
+    display: flexbox;
+    padding: 1px;
+    height: 128px;
+    border-radius: 100px 100px 100px 100px;
+    margin-top: 53px;
+    margin-left: 0px;
+}
+
+
+
+.menu{
+    display: flex;
+    list-style: none;
+}
+
+.menu li{
+    position: relative;
+}
+
+.menu li a {
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    text-decoration: none;
+    padding: 21px;
+    font-size: 26px;
+    color: white;
+}
+
+.menu li a:hover{
+    background: rgb(11, 11, 141);
+}
+
+.menu li:hover > .submenuLoja{
+ display: block;
+}
+
+.submenuLoja{
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background:#0b0b8d;
+}
+
+
+.bemvindohome{
+    text-align: center;
+    color: blue;
+    box-shadow: 0 5px 10px 1px blue;
+    font-size: 45px;
+}
+
+.nomeloja{
+    text-align: center;
+    font-size: 36px;
+}
+
+.entradaloja{
+    display: block;
+    background: black;
+    margin: auto;
+}
+
+p{
+    text-align: center;
+    display: block;
+    margin: 0px 5px 0px 5px;
+    padding: 5px;
+    color: black;
+    font-size: larger;
+    text-shadow: 2px 2px 5px rgb(93, 63, 177);
+}
+
+.lista-demo li{
+    padding: 5px;
+    text-align: center;
+    color: blue;
+    font-size: 18px;
+    
+}
+
+h3{
+    padding: 5px;
+    text-align: center;
+    text-shadow: 2px 2px 5px red;
+}
+
+.lista-demo2 li{
+    list-style-type:circle;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    /*background-color: gray;*/
+}
+
+
+
+.btn-VisitarLoja{
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    height: 80px;
+    width: 80px;
+    color:black;
+    background: gray;
+    
+}
+
+
+
+.footer{
+    width: 100%;
+    height: 20px;
+    background: black;
+    color:gray;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------- pagina quem sou ------------------------------------------------------*/
+.foto-rafael{
+    display:block;
+    width: 400px;
+    height: 440px;
+    border-radius: 200px;
+    margin: auto;
+    padding: 18px;
+    margin-bottom: -17px;
+}
+
+.tituloquemsou{
+    color: rgb(122, 122, 230);
+    margin: 5px;
+    text-align: center;
+    font-family: 'Hurricane', cursive;
+    font-size: 60px;
+}
+
+
+.list-curso{
+    color: rgb(30, 129, 210);
+    text-align: center;
+}
+
+.sub-titulo-quemsou{
+    border: 26px;
+    text-align: center;
+    height: 6px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
