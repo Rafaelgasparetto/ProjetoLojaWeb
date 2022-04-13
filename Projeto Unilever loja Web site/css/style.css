@@ -12,14 +12,14 @@ body{
 }
 
 .header{
-display: flex;
-justify-content: space-between;
-align-items: center;
-background-color: blue;
-box-shadow: 0 0 15px rgb(7, 7, 129);
-width: 100%;
-height: 80px;
-padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    box-shadow: 0 0 15px rgb(7, 7, 129);
+    width: 100%;
+    height: 80px;
+    padding: 0 10px;
 }
 
 
@@ -58,22 +58,29 @@ padding: 0 10px;
     padding: 21px;
     font-size: 26px;
     color: white;
+    display: block;
 }
 
-.menu li a:hover{
+.menu > li:hover{
     background: rgb(11, 11, 141);
 }
 
 .menu li:hover > .submenuLoja{
- display: block;
+    display: block;
 }
 
 .submenuLoja{
+    list-style: none;
     display: none;
     position: absolute;
-    top: 50px;
+    top: 80px;
     left: 0;
+    min-width: 110%;
     background:#0b0b8d;
+}
+
+.submenuLoja li:hover{
+    background: rgb(117, 117, 245);
 }
 
 
@@ -91,8 +98,8 @@ padding: 0 10px;
 
 .entradaloja{
     display: block;
-    background: black;
     margin: auto;
+    width: 100%;
 }
 
 p{
@@ -137,6 +144,25 @@ h3{
     color:black;
     background: gray;
     
+}
+
+.btn_she{
+    display: block;
+    width: 180px;
+    height: 86px;
+    margin: 35px;
+    text-align: center;
+    text-decoration: none;
+    background: rgb(182 182 221);
+}
+
+
+
+.analise_de_risco{
+    display: block;
+    background: black;
+    margin: auto;
+    width: 50%;
 }
 
 
